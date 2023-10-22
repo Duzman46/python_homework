@@ -1,6 +1,6 @@
 import time
 
-calculate = int(input("Kaç saniye sürsün: "))
+calculate = int(input("How many seconds should it take? "))
 print("This is the start of the program.")
 start_time = time.time()
 time.sleep(calculate)
